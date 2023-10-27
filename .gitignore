@@ -1,0 +1,5 @@
+/dist
+function.zip
+/infra/.terraform
+/node_modules
+authenticate_user.zip
