@@ -31,4 +31,4 @@ jobs:
           aws_region: us-east-1
           function_name: "authenticate-user"
           zip_file: "function.zip"
-          handler_name: "authentication.handler"
+          handler_name: "src/authentication.handler"
