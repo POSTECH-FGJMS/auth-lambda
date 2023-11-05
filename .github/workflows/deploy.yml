@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Zip the Lambda function
-        run: zip -r function.zip src/authentication.js node_modules
+        run: zip -r function.zip index.js node_modules
 
       - name: Deploy to AWS Lambda
         uses: appleboy/lambda-action@v0.1.2
@@ -31,4 +31,4 @@ jobs:
           aws_region: us-east-1
           function_name: "authenticate-user"
           zip_file: "function.zip"
-          handler_name: "src/authentication.handler"
+          handler_name: "index.handler"
