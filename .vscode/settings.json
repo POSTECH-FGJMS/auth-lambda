@@ -1,0 +1,5 @@
+{
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/julio/Documents/source/repos/pos_tech/auth-lambda/.github/workflows/deploy.yml"
+  }
+}
